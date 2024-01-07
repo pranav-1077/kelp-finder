@@ -1,7 +1,6 @@
 import torch
 from transformers import MaskRCNNForInstanceSegmentation, MaskRCNNProcessor, DefaultDataCollator
 from torch.utils.data import DataLoader
-from your_dataset import YourDataset # You need to implement this module
 
 # Ensure you have the necessary packages installed
 # pip install transformers torch torchvision
